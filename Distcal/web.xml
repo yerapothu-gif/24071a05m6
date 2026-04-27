@@ -1,0 +1,12 @@
+<web-app>
+    <servlet>
+        <servlet-name>distance</servlet-name>
+        <servlet-class>FindDis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>distance</servlet-name>
+        <url-pattern>/distance</url-pattern>
+    </servlet-mapping>
+
+</web-app>
