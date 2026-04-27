@@ -19,7 +19,7 @@ function Payment() {
 
   if (paid) {
     return (
-      <div>
+      <div className="page">
         <h2>Payment Successful</h2>
         <p>Destination: {state.city}</p>
         <p>Passenger: {state.name}</p>
@@ -31,7 +31,7 @@ function Payment() {
   }
 
   return (
-    <div>
+    <div className="page">
       <h2>Payment</h2>
       <p>Destination: {state.city}</p>
       <p>Passenger: {state.name}</p>

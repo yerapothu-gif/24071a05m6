@@ -1,7 +1,8 @@
 function Home() {
   return (
-    <div>
-      <h1>Welcome to Travel Booking</h1>
+    <div className="page">
+      <h1>Welcome to </h1>
+      <h1>Travel Booking</h1>
       <p>Find and book your next destination.</p>
     </div>
   );

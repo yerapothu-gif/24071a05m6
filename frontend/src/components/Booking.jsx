@@ -19,7 +19,7 @@ function Booking() {
   };
 
   return (
-    <div>
+    <div className="page">
       <h2>Booking - {state.city}</h2>
       <p>Fare per person: {state.fare} INR</p>
       <form onSubmit={handlePay}>

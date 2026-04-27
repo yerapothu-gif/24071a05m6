@@ -15,7 +15,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className="page">
       <section>
         <h2>Contact Us</h2>
         <form onSubmit={handleContactSubmit}>

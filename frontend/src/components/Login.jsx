@@ -12,7 +12,7 @@ function Login() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="page" onSubmit={handleSubmit}>
       <div>
         <label>Email</label><br />
         <input

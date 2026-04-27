@@ -14,7 +14,7 @@ function Destination() {
   };
 
   return (
-    <div>
+    <div className="page">
       <h2>Available Destinations</h2>
       <table border="1" cellPadding="8">
         <thead>
